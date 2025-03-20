@@ -1,0 +1,76 @@
+.containerPrincipalListTareas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1.5rem;
+    flex-direction: column;
+    gap: 2rem;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.containerTitleAndButton {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    width: 80%;
+    align-items: center;
+}
+
+.containerTitleAndButton h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.containerTitleAndButton button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.containerTitleAndButton button:hover {
+    background-color: #218838;
+    transform: translateY(-3px);
+}
+
+.containerTitleAndButton button:active {
+    background-color: #1e7e34;
+    transform: translateY(0);
+}
+
+.containerList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    width: 80%;
+    min-height: 60vh;
+    max-width: 800px;
+    overflow: auto;
+    border-radius: 0.8rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.containerList h2 {
+    font-size: 1.6rem;
+    color: #666;
+    text-align: center;
+}
+
+.containerList .noTasks {
+    font-size: 1.6rem;
+    color: #ff4d4d;
+    text-align: center;
+}
